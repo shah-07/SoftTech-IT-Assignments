@@ -1,0 +1,496 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: Trekking
+	Template URI: http://www.Shahbaz.com
+	Description: world best E-commerce site
+	Author: Shahbaz
+	Author URI: http://www.shahbaz.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Category Area
+	3. Men Collection Area
+	4. Women Collection Area
+	5. About Area
+	6. Social Area
+	7. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+/************************ Typography ************************/
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Quicksand', sans-serif;    
+}
+h2 {
+    font-size: 4em;
+    margin: 0;
+}
+h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+h4 {
+    margin: 0;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+h5 {
+    margin: 0;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+p {
+    font-weight: 500;
+    line-height: 1.3em;
+    margin: 0;
+}
+
+
+
+
+/************************ Header Area ************************************/
+
+.header-area {
+    background: url('../images/header-bg.jpg') no-repeat center 70% / cover;
+    padding: 4vh 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.header-area .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 92vh;
+}
+.header-area .logo-area img{
+    height: 70px;
+    width: auto;
+}
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/********** menu area ************/
+.menu-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu-area ul li {
+    display: inline;
+}
+.menu-area ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: .5em;
+    margin-top: .5em;
+    font-weight: 700;
+    font-size: 1.3em;
+    transition: .2s;
+}
+.menu-area ul li a:hover {
+    color: #A99B78;
+    transform: scale(1.2);
+}
+
+
+/************ Welcome area ****************/
+.welcome-text {
+    text-align: center;
+    color: white;
+}
+
+.welcome-text p {
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+
+
+.down-arrow {
+    text-align: center;
+}
+.down-arrow i {
+    color: white;
+    font-size: 3em;
+    transition: .3s;
+}
+.down-arrow i:hover {
+    color: #A99B78;
+    transform: scale(1.5);
+}
+
+
+
+
+
+
+/****************************** Category Area ********************************/
+
+.category-area {
+    background: #F5F6F8;
+    padding: 4em 0;
+    font-weight: bold;    
+}
+.category-area .flex-category {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/************* Check box **************/
+
+.check-box input[type=checkbox] + label {
+    margin: 0.2em;
+    cursor: pointer;
+    padding: 0.2em;
+}
+.check-box input[type=checkbox] {
+    display: none;
+}
+.check-box label {
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: .1em;
+}
+.check-box input[type=checkbox] + label:before{
+    content: "\2714";
+    border: 0.1em solid #cccccc;
+    border-radius: 0.2em;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    padding-left: 0.2em;
+    padding-bottom: 0.3em;
+    margin-right: 0.5em;
+    vertical-align: bottom;
+    color: transparent;
+    transition: 0.2s;
+}
+
+.check-box input[type=checkbox] + label:active:before {
+    transform: scale(0);
+}
+.check-box input[type=checkbox]:checked + label:before {
+    background-color: #fff;
+    color: #A99B78;
+}
+
+
+.see-all-button button {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #A99B78;
+    border: none;
+    border-radius: 0.2em;
+    padding: .6em;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.see-all-button button:active {
+    transform: scale(0.8);
+}
+
+
+
+/***************** Men And Women both Area *******************/
+
+.slide {
+    color: #A99B78;
+    margin: 30px 0 20px;
+}
+.slide i:nth-child(2) {
+    margin-right: 7px;
+}
+.item-area {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item {
+    background-color: #F5F6F7;
+    border: 5px solid transparent;
+    border-radius: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 20px;
+    width: 25%;
+}
+.item:hover {
+    border: 5px solid #A99B78;
+    border-radius: 4px;
+}
+.item:active {
+    transform: scale(0.8);
+}
+.item-body-top {
+    display: flex;
+    justify-content: space-between;
+}
+.item-body-top .item-size h5 {
+    padding-right: 5px;
+    display: inline-block;
+}
+.item-body-top .item-size i {
+    font-size: 1.2em;
+    margin-right: 6em;
+}
+.item-body-middle {
+    margin: 50px 0;
+    text-align: center;
+}
+.item-body-bottom {
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.item-body-bottom .item-name {
+    color: #A99B78;
+}
+.item-area .item-body-middle img {
+    padding: 30px 0;
+    height: 150px;
+}
+.item-body-top img {
+    width: 50px;
+}
+.item-area .item .item-color .color {
+    display: inline-block;
+    border: 1px solid transparent;
+    height: 10px;
+    width: 10px;
+    background-color: #165EB9;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+
+
+/***************** Mens collection Area *************/
+
+.men-collection-area {
+    padding: 50px 0;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.men-text .m-text h4 {
+    font-size: 1.3em;
+}
+.men-text {
+    display: flex;
+}
+.men-text .m-text h4 {
+    width: 10%;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.men-text .m-line {
+    width: 100%;
+    margin-top: 5px;
+}
+.men-text .m-line hr {
+    color:#ccc;
+}
+.men-collection-area .slide {
+    text-align: right;
+}
+
+.men-collection-area .item-area .item .item-color .color:nth-child(2) {
+    background-color: #FFE637;
+}
+.men-collection-area .item-area .item .item-color .color:nth-child(3) {
+    background-color: #535253;
+}
+.men-collection-area .item-area .item:nth-child(3) .item-size i {
+    visibility: hidden;
+}
+
+.men-collection-area .item-area .item:nth-child(2) .item-color {
+    visibility: hidden;
+}
+.men-collection-area .item-area .item:nth-child(3) .item-color {
+    visibility: hidden;
+}
+
+
+
+
+/***************** Women collection *********************/
+
+.women-collection-area {
+    padding: 50px 0;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.women-text .w-text h4 {
+    font-size: 1.3em;
+}
+.women-text {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.women-text .w-text h4 {
+    font-weight: 500;
+    width: 15%;
+    text-align: right;
+    margin-left: 10px;
+}
+.women-text .w-line {
+    margin-top: 5px;
+    width: 100%;
+}
+.women-text .w-line hr {
+    color:#ccc;
+}
+.women-collection-area .item-area .item:nth-child(1) .item-color {
+    visibility: hidden;
+}
+.women-collection-area .item-area .item:nth-child(2) .item-color {
+    visibility: hidden;
+}
+.women-collection-area .item-area .item .item-color .color:nth-child(1) {
+    visibility: hidden;
+}
+.women-collection-area .item-area .item .item-color .color:nth-child(2) {
+    background-color: #D3A7AC;
+}
+.women-collection-area .item-area .item .item-color .color:nth-child(3) {
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+/*************** About us ******************/
+
+.about-area {
+    background: #A99B78;
+    text-align: center;
+    padding: 100px 0;    
+}
+.about-area fieldset {
+    margin: auto;
+    width: 70%;
+    color: #837659;
+    border: 3px solid #837659;
+    padding: 7%;
+}
+.about-area fieldset legend {
+    margin: auto;
+    text-transform: uppercase;
+    padding: 0 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.about-area fieldset p {
+    font-size: 1.2em;
+    color: #424242;
+}
+
+
+
+
+
+/*************** Social Area ****************/
+
+.social-area {
+    background-color: #535253;
+    padding: 50px 0;
+}
+.social-flex {
+    display: flex;
+}
+.social-flex .social-icon {
+    margin-right: 20px;
+}
+.social-flex .social-icon a {
+    color: #424242;
+    font-size: 2em;
+    transition: .2s;
+}
+.social-flex .social-icon a:hover {
+    color: #A99B78;
+}
+.social-flex .social-text h4 {
+    font-size: 1.1em;
+    color: #fff;
+    margin: 10px 0 0;
+    text-transform: lowercase;
+}
+
+
+
+
+
+
+
+
+/***************** Footer Area *****************/
+
+.footer-area {
+    overflow: hidden;
+    background-color: #424242;
+    color: #fff;
+    letter-spacing: .1em;
+    padding: 100px 0;
+    line-height: 1.5em;
+}
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left-area {
+    width: 40%;
+}
+.footer-right-area {
+    width: 60%;
+    margin-top: 100px;
+    text-align: right;
+}
+.footer-right-area a {
+    font-weight: 600;
+    padding: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border-right: 2px solid #A99B78;
+    transition: .2s;
+}
+.footer-right-area a:nth-child(4) {
+    padding-right: 0;
+    border: none;
+}
+.footer-right-area a:hover {
+    color: #A99B78;
+}
+.footer-right-area h4 {
+    margin: 5px 0 0;
+}

@@ -1,0 +1,81 @@
+@media all and (max-width:800px) {
+    .header-area br {
+        display: none;
+    }
+    .header-area .menu-area ul li a {
+        display: block;
+        text-align: right;
+        border-right: 2px solid #A99B78;
+        padding: 0 10px 0 0;
+        margin-bottom: 15px;
+    }
+    .men-collection-area .item {
+        width: 40%;
+        margin-bottom: 25px;
+        font-size: .8em;
+    }
+    .women-collection-area .item {
+        width: 40%;
+        margin-bottom: 25px;
+        font-size: .8em;
+    }
+    .social-area .social-flex{
+        justify-content: center;
+    }
+    .footer-area .footer-flex {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-area .footer-left-area {
+        width: 100%;
+    }
+    .footer-area .footer-right-area {
+        width: 100%;
+    }
+
+}
+
+
+@media all and (max-width:600px) {
+    body {
+        font-size: 0.8em;
+    }
+    .header-area h2 {
+        font-size: 2.2em;
+    }
+    .header-area p {
+        font-size: 0.9em;
+    }
+    .category-area .flex-category {
+        flex-direction: column;
+        text-align: center;
+    }
+    .category-area .check-box {
+        margin-bottom: 20px;
+    }
+    .men-collection-area .item {
+        width: 100%;
+        font-size: .7em;
+    }
+    .women-collection-area .item {
+        width: 100%;
+        font-size: .7em;
+    }
+    .social-area .social-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-left-area {
+        text-align: center;
+    }
+    .footer-area .footer-left-area br {
+        display: none;
+    }
+    .footer-area .footer-left-area p {
+        font-size: 0.8em;
+    }
+    .footer-area .footer-right-area {
+        font-size: 0.8em;
+        text-align: center;
+    }
+}

@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+}
+.social {
+    padding-top: 120px;
+    text-align: center;
+}
+.social ul {
+    list-style: none;
+}
+.social ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.social ul li a {
+    display: block;
+    text-decoration: none;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: url("images/social.png") no-repeat;
+    transition: .8s;
+}
+.social ul .google-plus a {
+    background-position: -252px 0;
+}
+.social ul .google-plus a:hover {
+    background-position: -252px -87px;
+}
+.social ul .in a {
+    background-position: -336px 0;
+}
+.social ul .in a:hover {
+    background-position: -336px -87px;
+}
+.social ul .pin a {
+    background-position: -423px 0;
+}
+.social ul .pin a:hover {
+    background-position: -423px -87px;
+}
+.social ul .wifi a {
+    background-position: -505px 0;
+}
+.social ul .wifi a:hover {
+    background-position: -505px -87px;
+}
+.social ul .skipe a {
+    background-position: -590px 0;
+}
+.social ul .skipe a:hover {
+    background-position: -590px -87px;
+}
+.social ul .twetter a {
+    background-position: -674px 0;
+}
+.social ul .twetter a:hover {
+    background-position: -674px -87px;
+}
+.social ul .vevo a {
+    background-position: -760px 0;
+}
+.social ul .vevo a:hover {
+    background-position: -760px -87px;
+}
+
+
+/************ Angular Background ****************/
+
+.angular-bg {
+    margin-top: 200px;
+    height: 400px;
+    background-color: #ADD8E6;
+    position: relative;
+}
+.angular-bg::before {
+    display: block;
+    content: '';
+    height: 0;
+    width: 0;
+    border-bottom: 150px solid #ADD8E6;
+    border-left: 2000px solid transparent;
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+}
+.angular-bg::after {
+    display: block;
+    content: '';
+    height: 0;
+    width: 0;
+    border-top: 150px solid #ADD8E6;
+    border-right: 2000px solid transparent;
+    position: absolute;
+    right: 0;
+    top: 100%;
+}

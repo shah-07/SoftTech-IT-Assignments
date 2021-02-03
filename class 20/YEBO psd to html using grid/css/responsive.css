@@ -1,0 +1,81 @@
+@media all and (max-width: 800px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .header-area .main-menu ul{
+        text-align: left;
+    }
+    .header-area .main-menu ul li {
+        display: block;       
+    }
+    .header-area .main-menu ul li a {
+        border-bottom: none;
+        border-left: 3px solid #64c29e;
+        padding: 0 5px;
+        margin: 10px 0;
+    }
+    .header-area .main-menu ul li a:hover {
+        border-bottom: none;
+    }
+    .dotted::after {
+        display: none;
+    }
+    .header-area .main-menu .logo-border {
+        display: none;
+    }
+    .section-six .grid-container {
+        grid-template-columns: auto auto;
+    }
+    .section-two .grid-container {
+        grid-template-columns: auto;
+    }
+    .section-two .grid-container .area-one {
+        min-height: 500px;
+    }
+    .section-three .grid-container {
+        grid-template-columns: auto;
+    }
+    .section-three .grid-container .area-three {
+        grid-area: 4;
+        min-height: 600px;
+    }
+    .section-four .grid-container {
+        grid-template-columns: auto;
+    }
+    .section-four .grid-container .area-one {
+        grid-row: 1;
+        min-height: 600px;
+    }
+    .section-four .grid-container .area-two {
+        grid-row: 2;
+    }
+    .section-four .grid-container .area-three {
+        grid-area: 3;
+    }
+    .section-four .grid-container .area-four {
+        grid-area: 4;
+        min-height: 600px;
+    }
+}
+
+
+
+@media all and (max-width: 600px) {
+    body {
+        font-size: 0.9em;
+    }
+
+    .section-six .grid-container {
+        grid-template-columns: auto;
+    }
+    .section-eight .submit input {
+        display: block;
+        margin: auto;
+    }
+    .section-eight .submit button {
+        display: block;
+        margin: 10px auto;
+        padding: 11.5px 120px 15.5px;
+    }
+}

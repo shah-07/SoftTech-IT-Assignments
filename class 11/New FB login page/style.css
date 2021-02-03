@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    background: #F0F2F5;
+    min-height: 700px;
+}
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+/***  Header  ***/
+
+.left-area {
+    float: left;
+    width: 45%;
+    margin-top: 200px;
+}
+.right-area {
+    overflow: hidden;
+    width: 55%;
+}
+.login-area {
+    background-color: white;
+    border: 1px solid #dddfe2;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    
+    width: 60%;
+    padding-right: 26px;
+    margin: auto;
+    margin-top: 175px;
+}
+.left-area img {
+    width: 290px;
+    text-align: center;
+
+}
+.left-area p {
+    margin: 0;
+    margin-top: -15px;
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+.login-area form input[type="text"],
+.login-area input[type="password"] {
+    font-size: 17px;
+    padding: 3%;
+    border-radius: 6px;
+    width: 94%;
+    border: 1px solid #dddfe2;
+}
+.login-area form input[type="text"]{
+    margin-bottom: 15px;
+}
+.login-area form input[type="password"]{
+    margin-bottom: 15px;
+}
+.login-area form input[type="submit"]{
+    background-color: #1877F2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    padding: 3%;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.right-area .forgot {
+    color: #1877f2;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 15px;
+    display: block;
+}
+.right-area .forgot:hover{
+    text-decoration: underline;
+}
+.right-area hr {
+    border: 0;
+    border-bottom: 1px solid #dadde1;
+}
+.right-area .create {
+        text-decoration: none;
+        background: #42B72A;
+        color: white;
+        padding: 12px 17px;
+        font-weight: bold;
+        border-radius: 6px;
+        display: inline-block;
+        margin-top: 15px;
+}
+.right-area .create:hover {
+    background: #36a420;
+}
+
+.page-area .page {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+.page-area .page:hover {
+    text-decoration: underline;
+}
+.page-area p {
+    width: 67%;
+    text-align: center;
+    margin: auto;
+    padding-top: 2%;
+}
+/** footer ***/
+footer {
+    color: #8A8D91;
+    font-size: 12px;
+}
+.footer-top {
+    padding-top: 30px;
+}
+.footer-top,
+.footer-bottom {
+	overflow: hidden;
+}
+
+.footer-top ul,
+.footer-bottom ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.footer-top ul li,
+.footer-bottom ul li {
+	float: left;
+	margin-right: 10px;
+}
+
+footer hr {
+    border: 0;
+    border-bottom: 1px solid #dadde1;
+}
+
+.footer-bottom ul {
+	width: 90%;
+}
+
+.footer-bottom ul li {
+	padding-right: 20px;
+	padding-bottom: 5px;
+}
+footer .plus {
+    border: 1px solid #CCD0D5;
+    padding: 0px 8px;
+    background: whitesmoke;
+    font-weight: 700;
+    font-size: 16px;
+    position: relative;
+    bottom: 2px;
+    height: 18px;
+}
+
+footer .plus span {
+    position: relative;
+    bottom: 4px;
+}

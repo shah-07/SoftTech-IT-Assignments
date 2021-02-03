@@ -1,0 +1,25 @@
+
+.portfolio-nav ul {
+	text-align: center;
+}
+.portfolio-nav ul li {
+	display: inline;
+}
+.portfolio-nav ul li a {
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 4px;
+	text-decoration: none;
+	background: #2980b9;
+	color: white;
+	font-family: tahoma;
+	text-transform: capitalize;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mix {
+    margin: 5px;
+}

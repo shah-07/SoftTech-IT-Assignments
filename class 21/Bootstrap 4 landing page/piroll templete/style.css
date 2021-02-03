@@ -1,0 +1,131 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.header-section .banner {
+    padding: 150px 0;
+}
+.header-section .banner h5 {
+    line-height: 1.4em;
+}
+.header-section .banner h1 {
+    font-size: 3em;
+}
+.btn {
+    background-color: #10C9C3;
+    border-color: #10C9C3;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #10C9C3;
+}
+
+
+
+
+
+
+.skills-section .left-area {
+    padding: 10rem 5rem;
+}
+.skills-section .right-area {
+    background-color: #E9E9E9;
+}
+
+
+
+
+
+
+.numbers-section {
+    background-color: #10C9C3;
+    padding: 7rem 0;
+}
+
+
+
+
+
+
+.testimonials-section {
+    background-color: #10C9C3;
+    padding: 7rem 0;
+}
+.testimonials-section h4 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.testimonials-section p {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+.testimonials-section .carousel-indicators li {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+.clints-section img {
+    opacity: .5;
+}
+.clints-section img:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+.need-a-project {
+    background-color: #F5F5F5;
+}
+.need-a-project h3 {
+    margin-top: 3rem;
+}
+.need-a-project form {
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+
+.footer-section {
+    padding: 2rem 0;
+    background-color: #141414;
+    color: #A6A6A6;
+}
+.footer-section a {
+    color: #A6A6A6;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 575px) {
+    .skills-section .left-area {
+        padding: 10rem 2.5rem;
+    }
+    .testimonials-section h4 {
+        font-size: 1.5rem;
+    }
+    .testimonials-section p {
+        font-size: 1rem;
+    }
+}

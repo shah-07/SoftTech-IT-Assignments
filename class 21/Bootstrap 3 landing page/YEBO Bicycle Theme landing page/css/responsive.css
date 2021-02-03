@@ -1,0 +1,64 @@
+@media all and (max-width: 800px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .header-area .main-menu ul{
+        text-align: left;
+    }
+    .header-area .main-menu ul li {
+        display: block;       
+    }
+    .header-area .main-menu ul li a {
+        border-bottom: none;
+        border-left: 3px solid #64c29e;
+        padding: 0 5px;
+        margin: 10px 0;
+    }
+    .header-area .main-menu ul li a:hover {
+        border-bottom: none;
+    }
+    .dotted::after {
+        display: none;
+    }
+    .header-area .main-menu .logo-border {
+        display: none;
+    }
+}
+
+
+
+@media all and (max-width: 600px) {
+   h2 {
+       font-size: 0.9em;
+   }
+   h3 {
+       font-size: 0.9em;
+   }
+   p {
+       font-size: 0.9em;
+   }
+    .section-eight .submit input {
+        display: block;
+        margin: auto;
+    }
+    .section-eight .submit button {
+        display: block;
+        margin: 10px auto;
+        padding: 11.5px 118px 15.5px;
+    }
+    .section-nine .left {
+        text-align: center;
+    }
+    .section-nine .right {
+        text-align: center;
+    }
+    .section-nine .middle {
+        margin: 30px 0;
+    }
+}
+
+
+
+
+

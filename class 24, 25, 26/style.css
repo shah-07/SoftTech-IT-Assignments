@@ -1,0 +1,12 @@
+.something {
+    padding: 5px;
+    text-align: center;
+}
+.fan{
+    text-align: center;
+}
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: tomato;
+}

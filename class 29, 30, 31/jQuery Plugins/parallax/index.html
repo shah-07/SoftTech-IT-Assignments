@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>jQuery.parallax</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<link rel="stylesheet" href="css/jquery.parallax.css" />
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="site_wrap wrap">
+	<h2>jParallax Demos <a href="remotecontrol.html">next</a></h2>
+	<div id="port"> 
+	<!-- Seven image layers, each layer slightly bigger than the one behind, making 'closer' layers move faster. --> 
+	<img class="parallax-layer" src="images/parallax_drops/0.png" alt="" style="width:978px; height:325px;"/> <img class="parallax-layer" src="images/parallax_drops/1.png" alt="" style="width:987px; height:328px;"/> <img class="parallax-layer" src="images/parallax_drops/2.png" alt="" style="width:1001px; height:333px;"/> <img class="parallax-layer" src="images/parallax_drops/3.png" alt="" style="width:1031px; height:343px;"/> <img class="parallax-layer" src="images/parallax_drops/4.png" alt="" style="width:1067px; height:355px;"/> <img class="parallax-layer" src="images/parallax_drops/5.png" alt="" style="width:1120px; height:373px;"/> <img class="parallax-layer" src="images/parallax_drops/6.png" alt="" style="width:1200px; height:400px;"/> 
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> 
+	<script src="js/jquery.parallax.min.js"></script> 
+
+
+	<script type="text/javascript">
+		
+		jQuery(document).ready(function(){
+			// Declare parallax on layers
+			jQuery('.parallax-layer').parallax({
+				mouseport: jQuery("#port")
+			});
+		});
+		
+	</script> 
+</body>
+</html>

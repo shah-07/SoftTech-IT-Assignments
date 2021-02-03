@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background: #E8EBF4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-area {
+    background: #3A5795;
+    color: aliceblue;
+    padding: 20px;
+}
+.logo-area {
+    width: 70%;
+    float: left;
+}
+.login-area {
+    width: 30%;
+    overflow: hidden;
+}
+.username {
+    float: left;
+    margin-right: 20px;
+}
+.password {
+    float: left;
+    overflow: hidden;
+    margin-right: 17px;
+}
+.forgot {
+    color: aliceblue;
+    text-decoration: none;
+}
+.forgot:hover {
+    text-decoration: underline;
+}
+.submit {
+    overflow: hidden;
+    margin-top: 17px;
+}
+.main-left-area {
+    float: left;
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.main-right-area {
+    overflow: hidden;
+    width: 30%;
+}

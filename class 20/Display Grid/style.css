@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: deepskyblue;
+    padding: 10px;
+}
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.grid-container .item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+/********** justify content starts ***************/
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.grid-container2 {
+    display: grid;
+    justify-content: end;
+    grid-template-columns: 50px 50px 50px;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+.grid-container2 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+
+
+
+/************* Align-content ***************/
+
+.grid-container3 {
+    display: grid;
+    height: 400px;
+    align-content: end;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+.grid-container3 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+
+
+
+/************** grid Area property ***************/
+
+.grid-container4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+.grid-container4 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.grid-container4 .item8 {
+    grid-area: 2 / 1 / span 2 / span 3;
+}
+
+
+
+/************** Naming grid Items *************/
+
+.grid-container5 .item1 { grid-area: header; }
+.grid-container5 .item2 { grid-area: menu; }
+.grid-container5 .item3 { grid-area: main; }
+.grid-container5 .item4 { grid-area: right; }
+.grid-container5 .item5 { grid-area: footer; }
+
+.grid-container5 {
+    display: grid;
+    grid-template-areas: 'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+.grid-container5 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}

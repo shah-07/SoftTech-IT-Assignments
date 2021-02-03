@@ -1,0 +1,21 @@
+.jarallax {
+    min-height: 600px;
+}
+body {
+    margin: 0;
+}
+.jarallax-video {
+    position: relative;
+}
+.video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.video h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

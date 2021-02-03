@@ -1,0 +1,371 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: phototime
+	Template URI: http://www.softtech-it.com
+	Description: photo related template
+	Author: Shahbaz
+	Author URI: http://www.mtmsujan.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+		2.1 Menu Area
+		2.2 Welcome Text 
+		2.3 Social Media 
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+
+/****************************************************** Typography *************************************************************/
+
+
+
+
+@font-face {
+    font-family: "Gotham-Rounded-Book";
+    src: url('fonts/Gotham-Rounded-Book.woff') format('woff');
+}
+@font-face {
+    font-family: "Gotham-Rounded-Medium";
+    src: url('fonts/Gotham-Rounded-Medium.woff') format('woff')
+}
+@font-face {
+    font-family: "Gotham-Rounded-Bold";
+    src: url('fonts/Gotham-Rounded-Bold.woff') format('woff')
+}
+body {
+	font-family: "Gotham-Rounded-Book";
+	font-size: 12px;
+	line-height: 1.3em;
+}
+h2 {
+	font-family: "Gotham-Rounded-Bold";
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+h3 {
+	font-family: "Gotham-Rounded-Bold";
+	color: #16a086;
+	font-size: 18px;
+	text-transform: uppercase;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+}
+h5 {
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+p {
+	font-size: 12px;
+	color: #aeafb1;
+	letter-spacing: 1px;
+	line-height: 2em;
+}
+
+/**************************************************** Header Area ****************************************************/
+
+
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+.header-area {
+	background: url('images/header-bg.jpg') no-repeat bottom left / cover;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+	padding: 25px 0;
+}
+.header-area h2 {
+	letter-spacing: 8px;
+}
+.header-area h5 {
+	font-family: "Gotham-Rounded-Medium";
+	letter-spacing: 3px;
+}
+.welcome-text {
+	margin: 200px 0;
+}
+.menu-area ul {
+	text-align: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu-area ul li {
+	display: inline;
+	margin: 0 20px;
+}
+.menu-area ul li a {
+	font-family: "Gotham-Rounded-Bold";
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	display: inline-block;
+	padding-bottom: 5px;
+	transition: .3s;
+}
+.menu-area ul .logo img {
+	margin: 0 40px;
+	width: 40px;
+	height: auto;
+	transition: .5s;
+}
+.menu-area ul .logo img:hover {
+	transform: scale(1.5);
+}
+.menu-area ul .logo a {
+	border: none;
+}
+.menu-area ul .logo a:hover {
+	border: none;
+}
+.menu-area ul li a:hover {
+	border-bottom: 1px solid #16a086;
+}
+.btn {
+	font-family: "Gotham-Rounded-Bold";
+	text-decoration: none;
+	color: white;
+	background: #16a086;
+	text-transform: uppercase;
+	padding: 10px 25px;
+	border-radius: 2px;
+	display: inline-block;
+	transition: .2s;
+	border: 1px solid transparent;
+}
+.btn:hover {
+	background: white;
+	color: #16a086;
+	border: 1px solid #16a086;
+}
+.social-media ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: 0;
+}
+.social-media ul li {
+	display: inline;
+	margin: 0 15px;
+}
+.social-media ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	transition: .2s;
+}
+.social-media ul li a:hover {
+	color: #16a086;
+}
+
+
+/**************************************************** Getting Started Area ******************************************************/
+
+
+
+.getting-started {
+	overflow: hidden;
+	background-color: #F5F6F8;
+}
+.getting-started .text-area {
+	margin-top: 50px;
+	padding-bottom: 30px;
+	background: url('images/hand.png') no-repeat top right / 50% auto;
+}
+.getting-started .start-text {
+	width: 50%;
+}
+.text-area h3 {
+	letter-spacing: 3px;
+}
+.text-area p {
+	margin-bottom: 30px;
+}
+.text-area b {
+	color: #373737;
+}
+
+
+/********************************************************* Design Area **************************************************************/
+
+
+
+.design-area {
+	overflow: hidden;
+	margin-top: 60px;
+}
+
+.design {
+	overflow: hidden;
+	background: url('images/mobile.png') no-repeat top left / 30%;
+}
+.design-text {
+	width: 40%;
+	float: right;
+}
+
+.slide {
+	margin: 30px 0;
+}
+.arrow i {
+	color: black;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+/**************************************************** Community Area ********************************************************/
+
+
+.community-area {
+	overflow: hidden;
+	padding: 50px 0;
+	background-color: #F5F6F8;
+}
+.community-area .slide {
+	clear: both;
+}
+.community-area .arrow {
+	float: right;
+	overflow: hidden;
+	color: black;
+	font-size: 20px;
+	clear: both;
+}
+.col-1-3 {
+	float: left;
+	overflow: hidden;
+	width: 31.333%;
+	margin: 0 1%;
+	text-align: center;
+}
+.col-1-3:first-child img {
+	width: 40px;
+	height: auto;
+}
+.col-1-3:nth-child(2) img {
+	width: 100%;
+}
+.col-1-3:nth-child(3) img {
+	width: 100%;
+}
+
+
+/**************************************************** Subcribe Area ******************************************************/
+
+
+
+.subscribe-area {
+	background: url('images/subscribe-bg.jpg') no-repeat center / cover;
+	padding: 200px 0;
+}
+.subscribe-area h2 {
+	text-align: center;
+	color: white;
+}
+.subscribe-area form {
+	width: 255px;
+	margin: 0 auto;
+	text-align: center;
+}
+.subscribe-area form input[type="email"] {
+	background: white;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 3px 0 0 3px;
+	padding: 10px 20px;
+	border: 1px solid #11a689;
+}
+.subscribe-area form button[type="submit"] {
+	background: #11a689;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 0 3px 3px 0;
+	margin-left: -2px;
+	cursor: pointer;
+	border-radius: 0 3px 3px 0;
+	border: 1px solid transparent;
+	transition: .2s;
+}
+.subscribe-area form button[type="submit"]:hover {
+	background: white;
+	color: #11a689;
+	border: 1px solid #11a689;
+}
+
+
+/*********************************************** Download Area *********************************************************/
+
+
+
+
+.download-area {
+	background-color: #F5F6F8;
+	text-align: center;
+	padding: 50px 0;
+}
+.download-area .btn {
+	background-color: #1BBC9B;
+	border-radius: 2px 0 0 2px;
+	padding-right: 50px;
+}
+.download-area .btn:hover {
+	background-color: white;
+}
+.download-area i {
+	font-size: 15px;
+	padding: 10.5px 20px;
+	color: white;
+	background-color: #16A086;
+	border: 2px solid #16A086;
+	border-top: none;
+	border-radius: 0 2px 2px 0;
+	margin-right: 20px;
+}
+.download-area .apple {
+	display: inline-block;
+}
+.download-area .android {
+	display: inline-block;
+}
+
+
+/************************************************** Footer Area ********************************************************/
+
+
+
+.footer-area {
+	padding: 50px 0;
+}
+.footer-area h5 {
+	font-size: 14px;
+	color: #373737;
+}
+.footer-area .container{
+	position: relative;
+}
+.footer-area .line {
+	border-right: 2px solid #1BBC9B;
+	margin-right: 10px;
+}
+.footer-area img {
+	position: absolute;
+	top: 0;
+	right: 0;
+}

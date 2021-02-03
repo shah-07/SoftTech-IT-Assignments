@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'moda';
+    src: url('font/ChitraMJ.woff') format('woff');
+}
+h1 {
+    display: inline-block;
+    font-family: 'moda';
+}

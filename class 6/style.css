@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+}
+.header {
+    background-color: #3498db;
+    overflow: hidden;
+    padding: 300px;
+    color: #2c3e50;
+}
+.header h1 {
+    text-align: center;
+    font-size: 250%;
+    font-family: 'Sacramento', cursive;
+}
+.header p {
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Montserrat', sans-serif;
+}
+.middle {
+    overflow: hidden;
+}
+.M1 {
+    text-align: center;
+    float: left;
+    width: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #2c3e50;
+}
+.M1 h1{
+    font-family: 'Sacramento', cursive;
+}
+.M1 p{
+    font-family: 'Montserrat', sans-serif;
+}
+.M2 {
+    text-align: center;
+    float: left;
+    overflow: hidden;
+    width: 30%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #2c3e50;
+} 
+.M2 h1{
+    font-family: 'Sacramento', cursive;
+}
+.M2 p{
+    font-family: 'Montserrat', sans-serif;
+}
+.M3 {
+    text-align: center;
+    overflow: hidden;
+    width: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    float: right;
+    color: #2c3e50;
+}
+.M3 h1{
+    font-family: 'Sacramento', cursive;
+}
+.M3 p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.second-middle {
+    background-color: #c0392b;
+    overflow: hidden;
+}
+.sm1{
+    float: left;
+    width: 25%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 10%;
+    
+}
+.sm1 h1 {
+    font-family: 'Sacramento', cursive;
+    color: #ecf0f1;
+}
+.sm2 {
+    overflow: hidden;
+    width: 25%;
+    float: left;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.sm2 p {
+    font-family: 'Montserrat', sans-serif;
+    color: #ecf0f1;
+}
+
+.sm3 {
+    width: 25%;
+    overflow: hidden;
+    float: right;
+    padding-top: 5%;
+}
+.sm3 p {
+    font-family: 'Montserrat', sans-serif;
+    color: #ecf0f1;
+}
+.bottom {
+    background-color: #bdc3c7;
+    overflow: hidden;
+}
+.b1 {
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    width: 500px;
+    float: left;
+    background-color: white;
+    color: #2c3e50;
+}
+.b1 h1 {
+    font-family: 'Sacramento', cursive;
+}
+.b1 ul {
+    font-family: 'Montserrat', sans-serif;
+}
+.b2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3.6%;
+    padding-left: 2%;
+    width: 400px;
+    float: left;
+    background-color: #c0392b;
+    color: white;
+}
+.b2 h1 {
+    font-family: 'Sacramento', cursive;
+}
+.n1 {
+    float: left;
+    padding-left: 10%;
+}
+.n2 {
+    float: left;
+    padding-left: 20%;
+}
+.n3 {
+    overflow: hidden;
+    padding-left: 20%;
+}

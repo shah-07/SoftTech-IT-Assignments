@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main-menu {
+    background: #2980b9;
+}
+.main-menu::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+}
+.main-menu ul li {
+    float: left;
+    position: relative;
+}
+.main-menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+.main-menu ul li:hover a {
+    background: #2c3e50;
+}
+.main-menu ul .current a {
+    background: #2c3e50;
+}
+
+
+/***** sub menu ******/
+.main-menu ul ul {
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    z-index: 9999;
+}
+.main-menu ul ul li {
+    float: none;
+}
+.main-menu ul li:hover ul {
+    display: block;
+}
+
+
+@media all and (max-width: 768px) {
+    .main-menu ul {
+        padding: 0;
+    }
+    .main-menu ul li {
+        width: 100%;
+    }
+
+    .main-menu ul ul {
+        display: block;
+        position: inherit;
+    }
+    .main-menu ul li:hover a {
+        background: transparent;
+    }
+    .main-menu ul ul li a::before {
+        content: ' - ';
+        margin-left: 10px;
+    }
+
+}

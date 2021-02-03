@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: brown;
+    position: absolute;
+    -webkit-animation: shah 10s  infinite;
+            animation: shah 10s  infinite;
+    animation-direction: alternate-reverse;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation-play-state: running;
+            animation-play-state: running;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+}
+.box:hover {
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+}
+
+@-webkit-keyframes shah {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    10% {
+        left: 20%;
+        top: 200px;
+    }
+    20% {
+        left: 40%;
+        top: 0;
+    }
+    30% {
+        left: 60%;
+        top: 300px;
+    }
+    40% {
+        left: 80%;
+        top: 0;
+    }
+    50% {
+        left: 100%;
+        top: 300px;
+    }
+    60% {
+        left: 80%;
+        top: 0;
+    }
+    70% {
+        left: 60%;
+        top: 300px;
+    }
+    80% {
+        left: 40%;
+        top: 0;
+    }
+    90% {
+        left: 20%;
+        top: 200px;
+    }
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+
+@keyframes shah {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    10% {
+        left: 20%;
+        top: 200px;
+    }
+    20% {
+        left: 40%;
+        top: 0;
+    }
+    30% {
+        left: 60%;
+        top: 300px;
+    }
+    40% {
+        left: 80%;
+        top: 0;
+    }
+    50% {
+        left: 100%;
+        top: 300px;
+    }
+    60% {
+        left: 80%;
+        top: 0;
+    }
+    70% {
+        left: 60%;
+        top: 300px;
+    }
+    80% {
+        left: 40%;
+        top: 0;
+    }
+    90% {
+        left: 20%;
+        top: 200px;
+    }
+    100% {
+        left: 0;
+        top: 0;
+    }
+}

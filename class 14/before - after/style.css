@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background: red;
+    margin: auto;
+    position: relative;
+    margin-top: 200px;
+    transition: 3s;
+}
+.box::before {
+    content: '';
+    clear: both;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background: black;
+    position: absolute;
+    left: -100px;
+    top: -100px;
+    transition: 3s;
+}
+.box::after {
+    content: '';
+    clear: both;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background: blue;
+    position: absolute;
+    bottom: -100px;
+    right: -100px;
+    transition: 3s;
+
+}
+
+
+.box:hover {
+    transform: rotate(-360deg);
+}
+
+
+.box:hover::before {
+    left: 100%;
+    top: 100%;
+}
+.box:hover::after {
+    right: 100%;
+    bottom: 100%;
+}

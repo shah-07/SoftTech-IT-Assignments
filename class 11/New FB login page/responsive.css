@@ -1,0 +1,55 @@
+@media all and (max-width: 900px ){
+    .container {
+        width: 90%;
+    }
+    .left-area {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+    .right-area {
+        overflow: none;
+        padding-top: 60px;
+        width: 100%;
+    }
+    .left-area p {
+        text-align: center;
+        margin: 0;
+        width: 90%;
+    }
+    .left-area img {
+        display: block;
+        margin: auto;
+        padding-top: 20px;
+    }
+    .login-area {
+        margin: auto;
+        width: 90%;
+        padding: 5%; 
+    }
+    .left-area p {
+        width: 100%;
+        font-size: 16px;
+    }
+    .page-area p {
+        width: 100%;
+        padding-top: 15px;
+    }
+    .footer-top ul li {
+        padding-bottom: 5px;
+    }
+    .footer-bottom ul li {
+        padding-right: 0;
+    }
+    footer .plus {
+        padding: 0px 5px;
+        position: relative;
+        bottom: 0px;
+        height: 10px;
+    }
+    footer .plus span {
+        position: relative;
+        bottom: 6px;
+    }
+
+}

@@ -1,0 +1,420 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+h3 {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: #353738;
+    font-weight: bold;
+}
+h4 {
+    font-size: 1.5em;
+    color: #848789;
+    font-weight: normal;
+}
+p {
+    color: #848789;
+    font-size: 1.2em;
+}
+hr{
+    width: 12%;
+    border: none;
+    border-bottom: 2px solid #cccccc;
+}
+.col-md-3,
+.col-md-4,
+.col-md-8 {
+    padding: 0;
+}
+.center{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.triangle {
+    height: 0;
+    width: 0;
+    border-top: 15px solid white;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+/************ Header Section Starts ***************/
+
+.header-area {
+    background: url('../images/header-bg.jpg') no-repeat center / cover;
+    padding: 5vh 0;
+}
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+.header-area .main-menu {
+   height: 90vh;
+}
+.header-area .main-menu ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.header-area .main-menu ul li {
+    display: inline;
+    list-style: none;
+}
+.header-area .main-menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4d4959;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 2px solid transparent;
+    transition: .2s;
+    letter-spacing: .1em;
+}
+.dotted::after {
+    content: '';
+    display: inline-block;
+    background-color: #4d4959;
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+.header-area .main-menu .logo {
+    vertical-align: middle;
+    margin: 0 50px;
+}
+.header-area .main-menu ul li a:hover {
+    border-bottom: 2px solid #64c29e;
+}
+.header-area .main-menu ul .logo-border a {
+    border: none;
+}
+.header-area .main-menu ul .logo-border a:hover {
+    border: none;
+}
+
+
+/************ Header Section Ends ***************/
+
+
+
+
+
+
+
+/************* Section One Starts ***************/
+
+.section-one {
+    background-color: #F7F7F7;
+    text-align: center;
+    padding: 80px 0;
+}
+
+/************* Section One Ends ***************/
+
+
+
+
+
+
+/*********** Section Two Starts ****************/
+
+
+
+
+.section-two {
+    overflow: hidden;
+}
+.section-two .left-area {
+    background: url('../images/section-two-bg-left.jpg') no-repeat top left / cover;
+    min-height: 600px;
+    display: table;
+}
+.section-two .right-area .area-one {
+    text-align: center;
+    line-height: 2em;
+    margin-top: 5px;
+    height: 250px;
+    margin: 50px 0;
+    padding: 0 65px;
+}
+.section-two .right-area .area-two {
+    background: url('../images/red-sit.jpg') no-repeat center / cover;
+    height: 250px;
+    position: relative;
+
+}
+
+/*********** Section Two Ends ****************/
+
+
+
+
+
+
+
+/************ Section Three Starts ***********/
+
+.section-three {
+    overflow: hidden;
+}
+.section-three .row .left-area .area-one {
+    text-align: center;
+    line-height: 2em;
+    margin-top: 5px;
+    height: 250px;
+    margin: 50px 0;
+    padding: 0 65px;
+}
+.section-three .row .left-area .area-two {
+    background: url('../images/black-sit.jpg') no-repeat center / cover;
+    height: 250px;
+    position: relative;
+}
+.section-three .row .right-area {
+    background: url('../images/section-three-bg.jpg') no-repeat top center / cover;
+    height: 600px;
+    display: table;
+}
+
+/************ Section Three Ends ***********/
+
+
+
+
+/********** Section four Starts ***********/
+
+.section-four {
+    overflow: hidden;
+}
+.section-four .row .left-area {
+    background: url('../images/section-four-left-bg.jpg') no-repeat center / cover;
+    min-height: 600px;
+    display: table;
+}
+.section-four .row .middle-area .area-two {
+    text-align: center;
+    line-height: 2em;
+    margin-top: 5px;
+    height: 250px;
+    margin: 50px 0;
+    padding: 0 65px;
+}
+.section-four .row .middle-area .area-three {
+    background: url(../images/middle-image.jpg) no-repeat center / cover;
+    min-height: 250px;
+    position: relative;
+}
+.section-four .row .right-area .area-four {
+    background: url('../images/section-four-right-bg.jpg') no-repeat center / cover;
+    min-height: 600px;    
+}
+
+/********** Section four Ends ***********/
+
+
+
+
+
+
+
+/********** Section Five Starts ***********/
+
+.section-five {
+    padding: 80px 0;
+    text-align: center;
+}
+.section-five i {
+    font-size: 2em;
+    color: #57C7EF;
+}
+.section-five h4 {
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    color: #353738;
+}
+.section-five h4 span {
+    font-weight: 300;
+}
+.section-five p {
+    font-size: 1.5em;
+}
+
+/********** Section Five Ends ***********/
+
+
+
+
+
+
+
+
+
+/********** Section six Starts ***********/
+
+.section-six {
+    overflow: hidden;
+}
+.section-six span {
+    width: 133px;
+    display: inline-block;
+}
+
+.section-six .row .overlay {
+    position: relative;
+    overflow: hidden;
+}
+.section-six .row .text-icon {
+    position: absolute;
+    background-color: rgba(100, 194, 158, 0.7);
+    top: 50%;
+    left: 50%;
+    padding: 500px;
+    transform: translate(-50%, -50%);
+    transition: 300ms;
+    opacity: 0;
+    font-weight: bold;
+    letter-spacing: .3em;
+    font-size: 1.2em;
+}
+.section-six .row .text-icon:hover {
+    opacity: 1;
+}
+.section-six .row .text-icon a {
+    text-decoration: none;
+    color: #fff;
+}
+.section-six .row .text-icon img {
+    width: 60px;
+    height: auto;
+    padding-bottom: 5px;
+    margin-left: 35px;
+}
+.section-six .item1 .item01 {
+    background: url('../images/section-six/img1.jpg') no-repeat center / cover;
+    min-height: 300px;
+}
+.item1 .item02 {
+    background: url('../images/section-six/img2.jpg') no-repeat center / cover;
+    min-height: 300px;
+}
+.item1 .item03 {
+    background: url('../images/section-six/img3.jpg') no-repeat center / cover;
+    min-height: 300px;
+}
+.item2 {
+    background: url('../images/section-six/img4.jpg') no-repeat center / cover;
+    min-height: 600px;
+}
+.item3 {
+    background: url('../images/section-six/img5.jpg') no-repeat center / cover;
+    min-height: 600px;
+}
+.item4 .item001 {
+    background: url('../images/section-six/img6.jpg') no-repeat center / cover;
+    min-height: 300px;
+}
+.item4 .item002 {
+    background: url('../images/section-six/img7.jpg') no-repeat center / cover;
+    min-height: 300px;
+}
+.item4 .item003 {
+    background: url('../images/section-six/img8.jpg') no-repeat center / cover;
+    min-height: 300px;
+}
+
+
+/********** Section six Ends ***********/
+
+
+
+
+
+/********** Section seven Starts ***********/
+
+.section-seven {
+    background-color: #282F35;
+    padding: 80px 0;
+    text-align: center;
+}
+.section-seven a {
+   color: #fff;
+   text-decoration: none;
+   border: 1px solid #fff;
+   font-weight: bold;
+   padding: 15px 50px;
+   letter-spacing: .2em;
+   text-transform: uppercase;
+   font-size: 1em;
+   transition: .2s;
+}
+.section-seven a:hover {
+    background-color: white;
+    color: #282F35;
+}
+
+/********** Section seven Ends ***********/
+
+
+
+
+
+
+/********** Section Eight Starts ***********/
+
+.section-eight {
+    padding: 80px 0;
+    text-align: center;
+}
+.section-eight input[type='text'] {
+    font-size: 1.2em;
+    padding: 15px 15px;
+    padding-right: 60px;
+    border: 1px solid #cccccc; 
+    margin-right: 5px;   
+}
+.section-eight button {
+    color: #fff;
+    background-color: #64C29E;
+    font-size: 1.5em;
+    padding: 11.5px 20px 15.5px;
+    cursor: pointer;
+    border: none;
+    transition: .3s;
+}
+.section-eight button:hover {
+    background-color: #1f7755;
+}
+
+
+/********** Section Eight Ends ***********/
+
+
+
+.section-nine {
+    padding: 80px 0;
+    background-color: #F7F7F7;
+}
+
+.fab {
+    font-size: 35px;
+    margin-right: 15px;
+}
+.fa-twitter-square {
+    color: #78CEF1;
+}
+.fa-facebook-square {
+    color: #527BBD;
+}
+.fa-pinterest-square {
+    color: #EB5755;
+}
+
+

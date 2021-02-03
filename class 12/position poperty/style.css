@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    background: yellowgreen;
+    position: absolute;
+    left: 100%;
+    top: 100%;
+
+}
+.another {
+    height: 300px;
+    width: 300px;
+    background: yellow;
+    position: relative;
+}

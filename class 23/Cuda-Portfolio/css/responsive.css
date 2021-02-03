@@ -1,0 +1,189 @@
+@media all and (max-width:1000px) {
+   
+    .call-action h1 {
+        font-size: 1.8em;
+    }
+
+
+    /**************************************************/
+
+
+    .service-area {
+        padding: 8% 0;
+    }
+    .services .col {
+        width: 35%;
+        padding-bottom: 50px;
+    }
+
+    /**************************************************/
+
+
+    .teams .col {
+        width: 35%;
+    }
+
+    /**************************************************/
+    .about-area .client-img {
+        width: 35%;
+    }
+    .about-area .client-bio {
+        width: 65%;
+    }
+
+
+    /**************************************************/
+
+    .footer-area .link {
+        width: 20%;
+    }
+
+}
+
+
+
+
+@media all and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .flex-container {
+        justify-content: space-around;
+    }
+    .btn {
+        font-size: 1em;
+        padding: 10px 30px;
+    }
+    h2 {
+        font-size: 2em;
+    }
+
+/**************************************************/
+
+
+    .header-area .flex-container {
+        flex: none;
+    }
+    .header-area .header-logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .header-menu {
+        width: 95%;
+    }
+    .header-menu ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .header-menu li a {
+        width: 95%;
+    }
+    .header-area .call-action {
+        position: inherit;
+        transform: inherit;
+        padding-top: 50px;
+    }
+
+
+/**************************************************/
+
+    .contact-area .container {
+        width: 70%;
+    }
+    .contact-intro p {
+        width: 100%;
+    }
+
+
+/**************************************************/
+
+
+    .skill-area {
+        padding: 8% 0;
+    }
+    .skills .col {
+        width: 35%;
+        padding-bottom: 40px;
+    }
+
+}
+
+
+
+
+
+@media all and (max-width:600px) {
+    h2 {
+        font-size: 1.7em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+    .header-area .header-logo {
+        text-align: left;
+    }
+    .header-area .logo-menu .header-menu {
+        display: none;
+    }
+    .header-area .header-logo {
+        position: relative;
+    }
+    .header-area .header-logo .fas {
+        color: white;
+        display: inline-block;
+        text-align: right;
+        font-size: 2em;
+        position: absolute;
+        top: 15%;
+        right: 5%;
+    }
+    .header-area .logo-menu .header-menu.show {
+        display: block;
+    }
+    .call-action h1 {
+        font-size: 1.5em;
+    }
+    .services .col,
+    .teams .col,
+    .skills .col,
+    .portfolios .col,
+    .clients .col {
+        width: 70%;
+    }
+
+
+    .about-area .col {
+        text-align: center;
+    }
+    .about-area .client-img {
+        width: 100%;
+    }
+    .about-area .client-bio {
+        width: 100%;
+    }
+
+
+    .portfolio-menu li {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .portfolio-menu li a {
+        width: 80%;
+    }
+
+
+    .contact-area .contact-form form input[type=text],
+    .contact-area .contact-form form input[type=email] {
+       width: 100%;
+    }
+    .contact-area .contact-form form input[type=text] {
+        margin-bottom: 20px;
+    }
+
+
+
+    .footer-area .link {
+        width: 45%;
+    }
+}

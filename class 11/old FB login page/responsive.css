@@ -1,0 +1,68 @@
+@media all and (max-width: 768px ) {
+	header .logo-area {
+		float: none;
+		margin-bottom: 20px;
+		text-align: center;
+		width: 100%;
+	}
+	header .login-area {
+		width: 100%;
+	}
+	.login-area form {
+		float: none;
+		width: 390px;
+		margin: auto;
+	}
+	
+	
+	
+	
+	footer .top ul,
+	footer .bottom ul {
+		width: 100%;
+	}
+	footer .top ul li,
+	footer .bottom ul li {
+		width: auto;
+		margin-right: 15px;
+		margin-bottom: 10px;
+	}
+	
+	
+}
+
+
+
+@media all and (max-width: 620px){
+	.mobile-area,
+	.signup-area {
+        width: 100%;
+        float: none;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .mobile-text h4,
+    .mobile-text p {
+        float: none;
+    }
+
+}
+
+
+
+@media all and (max-width: 400px) {
+	header .login-area form {
+		width: auto;
+	}
+	header .login-area .email-area {
+		float: none;
+	}
+	header .login-area .password-area {
+        float: none;
+        width: 100%;
+	}
+	header .login-area input[type="text"],
+	header .login-area input[type="password"] {
+		width: 100%;
+	}
+}

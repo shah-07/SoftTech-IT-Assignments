@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+.owl-carousel {
+    width: 95%;
+    margin: 20px auto;
+}
+.item {
+    min-height: 100px;
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+.item img {
+    width: 100%;
+}
+.item h2 {
+    color: #3498DB;
+    font-size: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.owl-stage-outer {
+    position: relative;
+}
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    
+}
+.owl-nav .owl-prev {
+    top: 25%;
+    left: 0;
+}
+.owl-nav .owl-next {
+    top: 25%;
+    right: 0;
+}
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    background-color: #ccc;
+}
